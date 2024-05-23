@@ -744,14 +744,24 @@
 - Após terminar um curso inteiro, irá ser gerado automaticamente um certificado de conclusão de curso</content>
       </child>
       <child xsi:type="archimate:Note" id="id-d8a86f6042964a7397f2d25901fc5b08" textAlignment="1">
-        <bounds x="2738" y="634" width="466" height="615"/>
+        <bounds x="3000" y="1539" width="466" height="218"/>
         <content>ARQUITETURA DE SISTEMA&#xD;
+&#xD;
+- Visão geral do desenvolvimento do aplicativo.&#xD;
+- Para cada tela será necessário um Frontend com o visual e funcionalidades.&#xD;
+- O JSON será usado para haver comunicação com as APIs utilizadas no processo de desenvolvimento e para armazenamento dos dados gerados durante o uso do aplicativo.&#xD;
+- Para cada ação, será feito o Backend, criando uma ligação entre as funçoes do aplicativo.&#xD;
+- No final do desenvolvimento, haverá um Data Object para cada ramo da aplicação, como Dados Estruturados, Objetos serializados, etc.&#xD;
 </content>
       </child>
       <child xsi:type="archimate:Note" id="id-789223dc4f094471aa7d3c1cc5d6291e" textAlignment="1">
-        <bounds x="144" y="1448" width="577" height="592"/>
+        <bounds x="144" y="1448" width="577" height="206"/>
         <content>ARQUITETURA DE TECNOLOGIA&#xD;
-</content>
+&#xD;
+- Visão dos dispositivos e componentes necessários para rodar a aplicação.&#xD;
+- Como será um aplicativo será necessário um dispositivo móvel (ex: celular), mas não nenhum que tenha alto custo ou com desempenho muito avançado, apenas o necessário para baixar o aplicativo e ter um desempenho aceitável.&#xD;
+- O celular precisa de internet para ter conexão com os servidores da empresa e conseguir salvar as alterações feitas (progresso no treinamento). A conexão acontecerá através da LAN Ethernet dos servidores da própria Eurofarma.&#xD;
+- O armazenamento será no servidor de Data Base da ORACLE</content>
       </child>
     </element>
   </folder>
